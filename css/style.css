@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/************** CODE SECTION  *******/
+.code{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+.code .card{
+    display: inline-block;
+    margin: 0 10px;
+}
+.code .card img{
+    border-radius: 20px 20px 0 0;
+}
+
+/************** TAP SECTION  *******/
+
+.container .tap{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+.container .tap .secondary-card{
+    display: inline-block;
+    margin: 0 10px;
+    /* background-color: aqua; */
+    width: 400px;
+}
+.container .tap .secondary-card img{
+    width: 400px;
+}
+.container .tap .secondary-card h2{
+    margin: 10px 0;
+    color: brown;
+}
